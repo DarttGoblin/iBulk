@@ -1,0 +1,77 @@
+#moreInfoLinks {
+    position: relative;
+    top: -47px;
+    visibility: hidden;
+}
+.aboutLinks {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+#takeMeToLinks {
+    position: relative;
+    top: -24px;
+    visibility: hidden;
+}
+#takeMeTo {
+    font-size: 22px;
+    color: rgb(140, 0, 0);
+    position: relative;
+    top: 0px;
+    right: 490px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#moreInfo {
+    font-size: 22px;
+    color: rgb(140, 0, 0);
+    position: relative;
+    top: 0px;
+    right: -490px;
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.iBulkDiscriptions {
+    user-select: text;
+    color: rgb(140, 0, 0);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 60px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.iBulkParas {
+    user-select: text;
+    font-size: 25px;
+    color: black;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#aboutSection {
+    width: 1300px;
+    background-color: #ffffff;
+    height: 6400px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 10px grey;
+    padding-top: 40px;
+    overflow: auto;
+    margin: -5px 0px -3px 0px;
+}
+#underLineNav {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(140, 0, 0);
+    position: relative;
+    top: -48px;
+    right: -224px;
+}
+body {
+    user-select: none;
+    background: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}

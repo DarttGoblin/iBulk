@@ -1,0 +1,134 @@
+#specialpara {
+    font-size: 30px;
+    color: rgb(140, 0, 0);
+    position: relative;
+    top: -20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, top 0.3s;
+}
+#special {
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}
+#specialServiceBtn {
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: color 0.3s, background 0.3s, width 0.3s, opacity 0.3s;
+}
+#specialServiceBtn:hover {
+    background-color: white;
+    color: black;
+    width: 180px;
+}
+textarea {
+    background-color: rgb(230, 230, 230);
+    margin-top: 50px;
+    padding: 20px 25px 20px 25px;
+    font-size: 25px;
+    justify-content: center;
+    height: 100px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 20px;
+    resize: none;
+}s
+a {
+    color: black;
+    text-decoration: none;
+}
+.discreption {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: none;
+    font-family: arial;
+}
+.personalTrainer {
+    font-size: 37px;
+    font-weight: 700;
+    position: relative;
+    top: -75px;
+}
+.serviceIMGS {
+    position: relative;
+    top: -80px;
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    transition: height 0.3s, width 0.3s, top 0.3s, right 0.3s;
+}
+.serviceIMGS:hover {
+    height: 310px;
+    width: 310px;
+    top: -95px;
+}
+#nonDynamicPhrase {
+    margin-top: -10px;
+    font-family: arial;
+    font-size: 55px;
+    font-weight: 600;
+}
+#dynamicPhrase {
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 100;
+    visibility: visible;
+    color: white;
+    position: relative;
+    top: -20px;
+    transition: top 0.5s,  color 0.5s;
+}
+.servicesDivs {
+    justify-content: center;
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 15px grey;
+    cursor: pointer;
+    position: relative;
+    transition: height 0.5s, width 0.5s, top 0.5s, right 0.5s, box-shadow 0.5s ease-in-out;
+}
+#nutritionService, #groupeFitnessClass, #motivateGuru, #medicalTreat {
+    margin-right: 100px;
+    float: right;
+}
+#coachService, #equipementService, #gymLibrary, #FitnessFashion {
+    margin-left: 100px;
+    float: left;
+    top: 0px;
+}
+#servicesSectionDiv {
+    width: 1300px;
+    border-radius: 20px;
+    height: 3000px;
+    background-color: white;
+    position: relative;
+    padding-top: 50px;
+    box-shadow: 0px 5px 20px 10px grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: -5px 0px -3px 0px;
+}
+#underLineNav {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(140, 0, 0);
+    position: relative;
+    top: -48px;
+    right: -98px;
+}
+body {
+    user-select: none;
+    height: 1500px;
+    background: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}

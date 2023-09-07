@@ -1,0 +1,42 @@
+#homePageSectionsDiv {
+	display: block;
+	width: 69%;
+	height: fit-content;
+	background-color: white;
+	position: relative;
+	box-shadow: 0px 0px 20px 10px grey;
+	border-radius: 20px;
+	padding: 0px 0px 150px 0px;
+	margin: -3px 0px -5px 0px;
+}
+#underLineNav {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(140, 0, 0);
+    position: relative;
+    top: -48px;
+    right: 468px;
+}
+.mySlides {display: none;}
+.fitnessPicture {
+	width: 69%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin: -21px 0px 15px 0px;
+	box-shadow: 0px 20px 20px 10px grey;
+}
+.active {background-color: #717171;}
+.fade {
+	animation-name: fade;
+	animation-duration: 0.8s;
+}
+@keyframes fade {
+	from {opacity: .6} 
+	to {opacity: 1}
+}
+#navigationDiv {border-radius: 0%;}
+body {
+	user-select: none;
+	background: rgb(200, 200, 200);
+	font-family: Arial, Helvetica, sans-serif;
+}

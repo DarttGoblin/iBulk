@@ -1,0 +1,25 @@
+home page:
+	fix the information div (done)
+	fix the positioning of the muscle buttons (next target)
+	fun section
+	change the pictures into more friendly animation pictures (Next Target)
+	make the quiz shows the correct answer (done after 20min :))
+footer : sending feedBacks via emails (Next Target)
+login Form : new account input are not limited (laaaaater)
+programs : (done)
+about : 
+	pictures with paragraphes (still thinking about it)
+	update the texts and the content
+workout :
+	vds of me working out with tips and explanations (laaaaater)
+	change cardio with "more" and create a div reasonable the select section area with more options
+services : sending special services via emails
+contact us : 
+project :
+	use api links to get music, videos, quotes, lyrics, memes from the internet (laaaaater)
+	make the ads between project content in future (laaaaater)
+
+	fix the different screen sizes problem (laaaater)
+	fix the login problems (age gender ect) (laaaaater)
+	make the "change language option" (laaaater)
+

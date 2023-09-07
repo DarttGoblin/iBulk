@@ -1,0 +1,20 @@
+home page: 
+	use api links to get music, videos, quotes, lyrics, memes from the internet
+	change the pictures into more friendly animation pictures (Next Target)
+footer : sending feedBacks via emails
+login Form : new account input are not limited (laaaaater)
+footer : 
+	change the social media icons (chnaged my mind)
+	create the remaining social media accounts
+programs :
+about : problem in javascript (take me to) (done)
+workout : 
+	vds of me working out with tips and explanations (laaaaater)
+	script error (done)
+services : sending special services via emails (Next Target)
+contact us : 
+project :
+	make the ads between project content in future (laaaaater)
+	fix the different screen sizes problem (laaaater)
+	make the "change language option" (laaaater)
+

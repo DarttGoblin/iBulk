@@ -1,0 +1,59 @@
+.dots {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#upComingSpan {
+    font-size: 25px;
+    font-weight: 700;
+    user-select: text;
+}
+#programsHeadingChild {
+    font-size: 25px;
+    user-select: text;
+}
+#programsHeadingFather {
+    font-size: 45px;
+    font-weight: 600;
+    user-select: text;
+}
+.contentDivs {
+    height: 250px;
+    width: 250px;
+    margin: 20px 30px 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 5px grey;
+    cursor: pointer;
+    background-image: url("WorkoutMedia/workoutImage.jpg");
+    background-size: cover;
+}
+#contentSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+    padding: 70px 0px 50px 0px;
+}
+#workoutSectionDiv {
+    width: 1300px;
+    border-radius: 20px;
+    height: 1820px;
+    background-color: white;
+    padding: 50px 0px 0px 0px;
+    box-shadow: 0px 5px 20px 10px grey;
+    margin: -5px 0px -3px 0px;
+}
+#underLineNav {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(140, 0, 0);
+    position: relative;
+    top: -48px;
+    right: 184px;
+}
+body {
+    user-select: none;
+    height: 1500px;
+    background: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}

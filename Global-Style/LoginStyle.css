@@ -1,0 +1,278 @@
+#femaleRadioInput {
+    cursor: pointer;
+    margin: 0px 10px 0px 50px;
+}
+#maleRadioInput {
+    margin: 50px 10px 0px 0px;
+    cursor: pointer;
+}
+.genderRadio {font-size: 20px;}
+#eyeIcon {
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+}
+.formImages {
+    position: relative;
+    top: 0px;
+    height: 40px;
+    width: 40px;
+}
+#orSign {
+    margin-top: 70px;
+    user-select: text;
+}
+#orSignTwo {
+    user-select: text;
+}
+#rememberMe {
+    margin-right: 100px;
+    user-select: text;
+}
+#welcome {
+    font-size: 50px;
+    font-weight: 700;
+    user-select: text;
+}
+#signUpSection {
+    cursor: pointer;
+    user-select: text;
+}
+#signUpSectionFormClosingTag {
+    font-size: 40px;
+    position: relative;
+    top: -370px;
+    right: -190px;
+    cursor: pointer;
+    color: black;
+    visibility: hidden;
+}
+#signUpSectionSubmit {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 20px;
+    margin-top: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 30px;
+}
+#signUpSectionSubmit:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.signUpSectionInput {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-top: #ffffff;
+    border-right: #ffffff;
+    border-left: #ffffff;
+    background-color: white;
+    text-decoration: none;
+}
+#signUpSectionInputEyeClassList {
+    width: 300px;
+    margin: 0px 5px 0px 28px;
+}
+#signUpSectionForm {
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;
+    width: 470px;
+    height: 420px;
+    padding-top: 80px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(200, 200, 200);
+    position: relative;
+    top: -1550px;
+    visibility: hidden;
+}
+#passwordLost {
+    position: relative;
+    user-select: text;
+}
+#closingTag {
+    font-size: 50px;
+    color: rgb(140, 0, 0);
+    position: relative;
+    top: -635px;
+    right: -300px;
+    cursor: pointer;
+    visibility: hidden;
+}
+#socialMediaClosingTag {
+    font-size: 40px;
+    position: relative;
+    top: -2025px;
+    right: -195px;
+    cursor: pointer;
+    visibility: hidden;
+    color: black;
+}
+#facebookSubmit {
+    background-color: rgb(1, 82, 203);
+    color: white;
+    padding: 14px 20px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 30px;
+}
+#instagramSubmit {
+    background-color: rgba(254, 90, 249, 0.569);
+    color: white;
+    padding: 14px 20px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 30px;
+}
+#twitterSubmit {
+    background-color: rgb(112, 169, 255);
+    color: white;
+    padding: 14px 20px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 30px;
+}
+#facebookSubmit:hover {
+    background-color: rgb(0, 39, 97);
+}
+#instagramSubmit:hover {
+    background-color: rgb(105, 1, 102);
+}
+#twitterSubmit:hover {
+    background-color: rgb(0, 67, 167);
+}
+#facebookForm {
+    border: 3px solid rgb(1, 82, 203);
+    width: 470px;
+    height: 300px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(63, 63, 63);
+    position: relative;
+    top: -560px;
+    visibility: hidden;
+}
+#instagramForm {
+    border: 3px solid rgba(254, 90, 249, 0.569);
+    width: 470px;
+    height: 300px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(63, 63, 63);
+    position: relative;
+    top: -886px;
+    visibility: hidden;
+}
+#twitterForm {
+    border: 3px solid rgb(112, 169, 255);
+    width: 470px;
+    height: 300px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(63, 63, 63);
+    position: relative;
+    top: -1212px;
+    visibility: hidden;
+}
+#facebookInput, #instagramInput, #twitterInput {
+    width: 300px;
+    padding: 10px;
+    margin: 8px 0;
+    border-top: #ffffff;
+    border-right: #ffffff;
+    border-left: #ffffff;
+    background-color: white;
+    text-decoration: none;
+}
+#facebookInput {
+    border-bottom: 1px solid rgb(1, 82, 203);
+}
+#instagramInput {
+    border-bottom: 1px solid rgba(254, 90, 249, 0.569);
+}
+#twitterInput {
+    border-bottom: 1px solid rgb(112, 169, 255);
+}
+#user {
+    font-size: 20px;
+    position: relative;
+    top: -100px;
+    right: 222px;
+}
+#lock {
+    font-size: 20px;
+    position: relative;
+    top: -65px;
+    right: 222px;
+}
+#facebook, #twitter, #instagram {
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+}
+#twitter {margin: 0px 30px 0px 30px;}
+#principleForm {
+    margin-top: 100px;
+    width: 700px;
+    height: 650px;
+    padding: 30px 0px 30px 0px;
+    border: 3px solid rgb(140, 0, 0);
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+.principleFormInput {
+    font-size: 20px;
+    width: 400px;
+    padding: 10px;
+    margin: 8px 0;
+    border-top: #ffffff;
+    border-right: #ffffff;
+    border-left: #ffffff;
+    border-bottom: 1px solid rgb(140, 0, 0);
+    background-color: white;
+    text-decoration: none;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+#principleFormButton {
+    background-color: rgb(140, 0, 0);
+    color: white;
+    padding: 14px 20px;
+    margin-top: -20px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+#principleFormButton:hover {
+    background-color: black;
+}
+#LoginPlatformeBackground {
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    visibility: hidden;
+}
