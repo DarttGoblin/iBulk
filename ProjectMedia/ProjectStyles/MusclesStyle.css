@@ -1,0 +1,473 @@
+html {scroll-behavior: smooth;}
+#baackMusclesDiv {
+    position: relative;
+    top: -420px;
+}
+#frontMusclesDiv {
+    position: relative;
+    top: -120px;
+    right: 10px;
+}
+.image-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+#musclesDiv {
+    height: 780px;
+    width: 950px;
+}
+#helpingDiv {
+    visibility: hidden;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    margin: 0px 0px -450px 0px;
+}
+#informationHiddenDiv {
+    border: 5px solid black;
+    height: 500px;
+    width: 1200px;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 5px grey;
+    margin: 0px 0px 150px 0px;
+}
+#paragraphDiv {
+    height: 360px;
+    width: 660px;
+    border-radius: 30px;
+    visibility: visible;
+    user-select: text;
+    float: left;
+    margin: 25px -15px 20px 25px;
+    padding: 70px 20px 20px 20px;
+    overflow: auto;
+}
+#paragraphDiv::-webkit-scrollbar {
+    margin-top: 20px;
+    width: 10px;
+}
+#paragraphDiv::-webkit-scrollbar-track {
+    visibility: hidden;
+}
+#paragraphDiv::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+#anatomyImageDiv {
+    height: 450px;
+    width: 420px;
+    float: right;
+    border-radius: 30px;
+    visibility: visible;
+    margin: 25px 25px 20px -15px;
+}
+#welcomeKingQueen {
+    visibility: hidden;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    transition: color 1s ease-in-out;
+    position: relative;
+    top: 25px;
+}
+.genderBodyButtons {
+    height: 80px;
+    width: 180px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 50px -5px 0px -5px;
+}
+#maleBodyButton {
+    color: white;
+    background-color: rgb(140, 0, 0);
+    border: 3px solid rgb(140, 0, 0);
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: -10px 0px 20px 3px grey;
+}
+#femaleBodyButton {
+    background-color: white;
+    border: 3px solid rgb(140, 0, 0);
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 10px 0px 20px 3px grey;
+}
+#fitnessPicture {
+    box-shadow: 0px 20px 20px 10px grey;
+}
+#principleImage, #principleImageBV {
+    box-shadow: 0px 0px 50px 5px grey;
+    border-radius: 50px;
+    margin: 30px 30px 0px 30px;
+    position: relative;
+    top: -90px;
+}
+#choosingMuscleMovingSpan {
+    position: relative;
+    top: -270px;
+    font-size: 40px;
+    font-weight: 700;
+    transition: color 1s;
+    cursor: pointer;
+}
+#movingSpanLink {
+    text-decoration: none;
+}
+#anatomyParagraphSpan {
+
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#scrollLimit {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    top: -550px;
+    visibility: hidden;
+}
+.frontMuscles, .baackMuscles {
+    opacity: 0;
+    cursor: pointer;
+    visibility: visible;
+}
+#quadracepsOne, #quadracepsTwo {
+    background-color: pink;
+    color: white;
+    position: relative;
+    height: 195px;
+    width: 55px;
+    border-top-right-radius: 200px 900px;
+    border-top-left-radius: 200px 900px;
+    border-bottom-right-radius: 200px 500px;
+    border-bottom-left-radius: 200px 500px;
+}
+#quadracepsOne {
+    top: -370px;
+    right: -130px;
+    transform: rotate(-4deg);
+}
+#quadracepsTwo {
+    top: -370px;
+    right: -175px;
+    transform: rotate(4deg)
+}
+#abs {
+    background-color: blue;
+    color: white;
+    position: relative;
+    top: -542px;
+    right: -60px;
+    height: 144px;
+    width: 63px;
+    border-bottom-right-radius: 20px 60px;
+    border-bottom-left-radius: 20px 60px;
+}
+#chestOne, #chestTwo {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -686px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+#chestOne {right: -24px;}
+#chestTwo {right: 120px;}
+#bicepsOne, #bicepsTwo {
+    background-color: green;
+    color: white;
+    position: relative;
+    top: -634px;
+    height: 80px;
+    width: 40px;
+    border-radius: 30px;
+}
+#bicepsOne {
+    right: 253px;
+    transform: rotate(35deg);
+}
+#bicepsTwo {
+    right: 82px;
+    transform: rotate(-35deg);
+}
+#calvesOne, #calvesTwo {
+    background-color: yellow;
+    color: white;
+    position: relative;
+    top: -290px;
+    height: 70px;
+    width: 45px;
+    border-radius: 20px;
+}
+#calvesOne {right: 296px;}
+#calvesTwo {right: 226px;}
+#shouldersOne, #shouldersTwo {
+    background-color: orange;
+    color: white;
+    position: relative;
+    top: -703px;
+    height: 65px;
+    width: 28px;
+    border-radius: 20px;
+}
+#shouldersOne {
+    right: 408px;
+    transform: rotate(40deg);
+}
+#shouldersTwo {
+    right: 277px;
+    transform: rotate(-40deg);
+}
+#forearmsOne, #forearmsTwo {
+    background-color: cyan;
+    color: white;
+    position: relative;
+    top: -560px;
+    height: 90px;
+    width: 35px;
+    border-radius: 20px;
+}
+#forearmsOne {
+    right: 547px;
+    transform: rotate(30deg);
+}
+#forearmsTwo {
+    right: 283px;
+    transform: rotate(-30deg);
+}
+#trapsOne, #trapsTwo{
+    background-color: brown;
+    color: white;
+    position: relative;
+    top: -760px;
+    height: 20px;
+    width: 30px;
+    border-radius: 100px;	
+}
+#trapsOne {right: 510px;}
+#trapsTwo {right: 468px;}
+#latsOne, #latsTwo {
+    background-color: red;
+    color: white;
+    position: relative;
+    top: -580px;
+    height: 90px;
+    width: 30px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#latsOne {
+    right: 493px;
+    transform: rotate(-4deg);	
+}
+#latsTwo {
+    right: 623px;
+    transform: rotate(4deg);	
+}
+#latsThree, #latsFour {
+    background-color: red;
+    color: white;
+    position: relative;
+    top: -647px;
+    right: 548px;
+    height: 50px;
+    width: 30px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#latsThree{
+    right: 548px;
+    transform: rotate(30deg);
+}
+#latsFour{
+    right: 705px;
+    transform: rotate(-30deg);	
+}
+#backLatsOne ,#backLatsTwo, 
+#backLatsThree, #backLatsFour{
+    background-color: red;
+    color: white;
+    position: relative;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#backLatsOne {
+    top: -450px;
+    right: 156px;
+    height: 170px;
+    width: 35px;
+}
+#backLatsTwo{
+    top: -450px;
+    right: 105px;
+    height: 170px;
+    width: 35px;
+}
+#backLatsThree{
+    top: -515px;
+    right: 248px;
+    height: 90px;
+    width: 50px;
+    transform: rotate(-20deg);
+}
+#backLatsFour{
+    top: -515px;
+    right: 202px;
+    height: 90px;
+    width: 50px;
+    transform: rotate(20deg);
+}
+#backTraps {
+    background-color: brown;
+    color: white;
+    position: relative;
+    top: -620px;
+    right: 45px;
+    height: 25px;
+    width: 90px;
+    border-radius: 20px;
+}
+#backForearmsOne, #backForearmsTwo {
+    background-color: cyan;
+    color: white;
+    position: relative;
+    top: -427px;
+    height: 100px;
+    width: 35px;
+    border-radius: 20px;
+    transform: rotate(30deg);
+}
+#backForearmsOne {
+    right: 90px;
+    transform: rotate(30deg);
+}
+#backForearmsTwo {
+    right: -175px;
+    transform: rotate(-30deg);
+}
+#backShouldersOne, #backShouldersTwo {
+    background-color: orange;
+    color: white;
+    position: relative;
+    top: -580px;
+    height: 60px;
+    width: 28px;
+    border-radius: 20px;	
+    transform: rotate(50deg);
+}
+#backShouldersOne {
+    right: -55px;
+    transform: rotate(60deg);
+}
+#backShouldersTwo {
+    right: -175px;
+    transform: rotate(-60deg);
+}
+#backCalvesOne, #backCalvesTwo {
+    background-color: yellow;
+    color: white;
+    position: relative;
+    top: -148px;
+    height: 70px;
+    width: 45px;
+    border-radius: 20px;
+}
+#backCalvesOne {right: -161px;}
+#backCalvesTwo {right: -232px;}
+#tricepsOne, #tricepsTwo {
+    background-color: green;
+    color: white;
+    position: relative;
+    top: -515px;
+    height: 75px;
+    width: 40px;
+    border-radius: 30px;
+    transform: rotate(35deg);
+}
+#tricepsOne {
+    right: -208px;
+    transform: rotate(35deg);
+}
+#tricepsTwo {
+    right: -374px;
+    transform: rotate(-35deg);
+}
+#lowerTraps {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -550px;
+    right: -368px;
+    height: 68px;
+    width: 60px;
+    border-bottom-right-radius: 900px 900px;
+    border-bottom-left-radius: 900px 900px;
+    border-top-right-radius: 100px 100px;
+    border-top-left-radius: 100px 100px;
+}
+#lowerBack {
+    background-color: white;
+    color: white;
+    position: relative;
+    top: -450px;
+    right: -431px;
+    height: 100px;
+    width: 60px;
+    border-top-right-radius: 700px 900px;
+    border-top-left-radius: 700px 900px;
+    border-bottom-right-radius: 400px 500px;
+    border-bottom-left-radius: 400px 500px;
+}
+#ass {
+    background-color: blue;
+    color: white;
+    position: relative;
+    top: -375px;
+    right: -531px;
+    height: 77px;
+    width: 130px;
+    border-top-right-radius: 700px 900px;
+    border-top-left-radius: 700px 900px;
+    border-bottom-right-radius: 400px 500px;
+    border-bottom-left-radius: 400px 500px;
+}
+#backQuadracepsOne, #backQuadracepsTwo {
+    background-color: pink;
+    color: white;
+    position: relative;
+    top: -245px;
+    height: 130px;
+    width: 70px;
+    border-bottom-right-radius: 200px 900px;
+    border-bottom-left-radius: 200px 900px;
+    border-top-right-radius: 200px 500px;
+    border-top-left-radius: 200px 500px;
+}
+#backQuadracepsOne {
+    right: -665px;
+    transform: rotate(4deg);
+}
+#backQuadracepsTwo {
+    right: -680px;
+    transform: rotate(-4deg);
+}
