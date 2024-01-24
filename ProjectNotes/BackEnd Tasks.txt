@@ -1,4 +1,0 @@
-home page: use api links to get music, videos, quotes, lyrics, memes from the internet
-footer : sending feedBacks via emails DONE
-sign up : create accounts
-services : sending special services via emails DONE
