@@ -1,3 +1,0 @@
-put the images of the section in the top of their pages
-and make a full info paragraph belows them
-use same structures of the window (music, vedios, footer...)
