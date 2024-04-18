@@ -1,0 +1,13 @@
+#upComingSpan {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 100px 0px;
+    font-size: 25px;
+    font-weight: 700;
+    user-select: text;
+}
+.dots {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}

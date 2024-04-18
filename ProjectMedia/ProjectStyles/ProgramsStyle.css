@@ -1,0 +1,102 @@
+#timeSpanJs {margin: 0px 0px 0px 150px;}
+#setTimer, #startTimer, #resetTimer, #removeTimer {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 700;
+    border: none;
+    height: 50px;
+    width: 160px;
+    margin: 30px 0px 0px 0px;
+    cursor: pointer;
+    transition: color 0.1s, background 0.1s;
+}
+#setTimer:hover, #startTimer:hover, #resetTimer:hover, #removeTimer:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+#timeSpan {
+    font-size: 25px;
+    font-weight: 600;
+    user-select: text;
+}
+#downloadButton {
+    background-color: rgb(140, 0, 0);
+    color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    height: 50px;
+    width: 180px;
+    margin: 60px 0px 0px 0px;
+    cursor: pointer;
+    transition: color 0.1s, background 0.1s;
+}
+#downloadButton:hover {
+    background-color: white;
+    color: rgb(140, 0, 0);
+    border: 2px solid rgb(140, 0, 0);
+}
+#helpDownload, #helpTimer {
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.1s, background 0.1s;
+}
+#helpDownload:hover, #helpTimer:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+#downloadDiv {float: right;}
+#timeLeftDiv {float: left;}
+#programsDataDiv {
+    margin: 80px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
+}
+#programTitle {
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.programTitles {
+    font-size: 33px;
+    font-weight: 700;
+}
+#programsOneDiv {
+    font-size: 25px;
+    user-select: text;
+    width: 1160px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 70px 0px 70px;
+    box-shadow: 0px 5px 20px 10px grey;
+    margin: -5px 0px -3px 0px;
+    text-align: left;
+}
+#underLineNav {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(140, 0, 0);
+    position: relative;
+    top: -48px;
+    right: 265px;
+}
+body {
+    user-select: none;
+    background: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1893px) {#underLineNav {right: 316px;}}
