@@ -1,0 +1,11 @@
+home page:
+	link leads to nutrition to meal plan suggested
+	memes slider
+	games slider
+programs : 
+workout : vds of me working out with tips and explanations
+services : add the clothes service and nursing
+contact us : 
+project :
+	use api links to get music, videos, quotes, lyrics, memes from the internet
+	make the ads between project content in future

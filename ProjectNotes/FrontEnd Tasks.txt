@@ -1,0 +1,13 @@
+resize the muscles for the female body
+anatomy button (take me to workout isnt updated)
+
+next target : update the quiz code, fix the timer problem
+
+content : services (economic service, premium service)
+
+problems :
+	the BackToButtons function doesnt work in the fetch function about section
+	music data isnt saved when go back, forward or refreshed
+	how to filter muscles without affecting the equipement filter (got the idea but didnt finish it :(.)
+	the quiz data is uncorrect (use gpt and analyse 10 question each time)
+	the more button in the workout section doesnt work

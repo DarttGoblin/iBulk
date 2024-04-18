@@ -1,0 +1,13 @@
+add the kickboxing section in iBulk (add a beautiful feature that specialise the new stuff in iBulk)
+create a playlist where the music playing (go back, forward automatically or shuffled)
+add the advanced option of the hovering muscles where you devide them (like in muscle wiki)
+make the ads between project content in future
+create a node.js server that downloads the workout programs as a text, pdf or doc format
+Resize The Muscles To Fit The Female Body Instead Creating New Ones
+add the three lines beside the logo for more settings (dark mode, language options, account setting)
+Add a quiz about the bodybuilding history and its players
+add a download button and time left to change the program to the program section
+add the confirm password input to login and merge the f,l name in full name input
+add timers to workout section (still dont know how)
+
+iBulkClub (comments on each other content, conversations, live videos for motivations)
