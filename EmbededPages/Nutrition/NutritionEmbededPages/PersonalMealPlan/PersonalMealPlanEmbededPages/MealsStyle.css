@@ -1,0 +1,99 @@
+.mpcContainer {margin: 0px 0px 20px 0px;}
+.caloriesAmount {
+    font-size: 25px;
+    font-weight: 600;
+}
+.ingredientsDiv {margin: 0px 0px 50px 0px;}
+.ingredientsPara {
+    font-size: 30px;
+    user-select: text;
+}
+.instructions {
+    font-size: 30px;
+    user-select: text;
+}
+.mealProcess {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 50px 0px 50px;
+    text-align: left;
+}
+.styledNumsIngredients {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(180, 123, 142);
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    padding: 10px 15px 20px 15px;
+}
+.ingredient {
+    position: relative;
+    right: 50px;
+}
+.mealTitles {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.mealsInfo {
+    height: 340px;
+    width: 600px;
+    margin: 25px 50px 20px 20px;
+    padding: 30px 0px 20px 0px;
+    overflow-y: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -5px inset black;
+}
+.mealsInfo::-webkit-scrollbar {
+    margin-top: 20px;
+    width: 10px;
+}
+.mealsInfo::-webkit-scrollbar-track {visibility: hidden;}
+.mealsInfo::-webkit-scrollbar-thumb {visibility: hidden;}
+.mealsPictures {
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    margin: 23px 20px 0px 60px;
+    /* border: 1px solid black; */
+}
+.mealsContainer {
+    width: 1200px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 5px gray;
+}
+.containerScroll {margin: 20px 0px 0px 0px;}
+.valueScroll {
+    position: relative;
+    top: -22px;
+    right: -170px;
+}
+.rangeScroll {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 200px;
+    margin: 30px 0px 0px 0px;
+    height: 12px;
+    background: rgb(173, 173, 173);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    right: 30px;
+}
+.rangeScroll::-webkit-slider-thumb {
+    width: 29px;
+    height: 29px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid gray;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
