@@ -1,0 +1,60 @@
+#bro {background-image: url("programsPictures/bro-split.jpg");}
+#ppl {background-image: url("programsPictures/push-pull-legs-split.jpg");}
+#uplow {background-image: url("programsPictures/upper_lower_split.jpg");}
+#full {background-image: url("programsPictures/full_body_split.jpg");}
+#homew {background-image: url("programsPictures/home_workout.jpg");}
+.dots {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#upComingSpan {
+    font-size: 25px;
+    font-weight: 700;
+    user-select: text;
+}
+#programsHeadingChild {
+    font-size: 25px;
+    user-select: text;
+}
+#programsHeadingFather {
+    font-size: 45px;
+    font-weight: 600;
+    user-select: text;
+}
+#programsDivsFather {padding: 20px 0px 20px 0px;}
+.programsDivs {
+    margin: 40px 0px 40px 0px;
+    width: 1200px;
+    height: 400px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-image: url("programsPictures/backgroundIMGS.png");
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px grey;
+    transition: box-shadow 0.2s;
+}
+.programsDivs:hover {box-shadow: 0px 0px 20px 15px grey;}
+#programsSectionDiv {
+    width: 1300px;
+    border-radius: 20px;
+    height: 4650px;
+    background-color: white;
+    padding: 50px 0px 0px 0px;
+    box-shadow: 0px 5px 20px 10px grey;
+    margin: -5px 0px -3px 0px;
+}
+#underLineNav {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(140, 0, 0);
+    position: relative;
+    top: -48px;
+    right: 265px;
+}
+body {
+    user-select: none;
+    background: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1893px) {#underLineNav {right: 316px;}}

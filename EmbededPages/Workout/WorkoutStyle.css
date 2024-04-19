@@ -1,0 +1,74 @@
+#musclesSelect {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    /* margin-top: 80px; */
+    padding: 0px 0px 0px 5px;
+    /* position: relative; */
+    /* top: 50px; */
+}
+.dots {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#upComingSpan {
+    font-size: 25px;
+    font-weight: 700;
+    user-select: text;
+}
+#programsHeadingChild {
+    font-size: 25px;
+    user-select: text;
+}
+#programsHeadingFather {
+    font-size: 45px;
+    font-weight: 600;
+    user-select: text;
+}
+.contentDivs {
+    height: 250px;
+    width: 250px;
+    margin: 20px 30px 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 5px grey;
+    cursor: pointer;
+    background-size: cover;
+    display: none;
+}
+#contentSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px 50px 0px;
+}
+#workoutSectionDiv {
+    width: 1300px;
+    border-radius: 20px;
+    min-height: 650px;
+    background-color: white;
+    padding: 50px 0px 50px 0px;
+    box-shadow: 0px 5px 20px 10px grey;
+    margin: -5px 0px -3px 0px;
+}
+#underLineNav {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(140, 0, 0);
+    position: relative;
+    top: -48px;
+    right: 104px;
+}
+body {
+    user-select: none;
+    height: fit-content;
+    background: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1893px) {#underLineNav {right: 162px;}}
