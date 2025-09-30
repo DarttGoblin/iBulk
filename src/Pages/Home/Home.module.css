@@ -1,0 +1,9 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin-top: 100px;
+    background-color: white;
+}

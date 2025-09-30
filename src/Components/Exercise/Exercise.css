@@ -1,0 +1,78 @@
+.exercise-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: var(--main-border-radius);
+    width: 250px;
+    box-shadow: grey 0px 0px 10px 5px;
+    cursor: pointer;
+    transition: scale var(--main-transition);
+}
+
+.exercise-card:hover {
+    scale: 1.03;
+}
+
+.exercise-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 28px;
+}
+
+.exercise-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.exercise-title {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.exercise-level {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.exercise-row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+}
+
+.exercise-muscle {
+    font-size: 18px;
+}
+
+
+.exercise-equipment {
+
+}
+
+.exercise-type {
+    padding: 5px 10px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    border-radius: var(--main-border-radius);
+}
+
+.beginner {
+    color: rgb(0, 200, 0);
+}
+
+.intermediate {
+    color: rgb(200, 200, 0);
+}
+
+.advanced {
+    color: rgb(200, 0, 0);
+}
+
+@media only screen and (max-width: 1700px) {
+}
