@@ -32,13 +32,153 @@ const Exercises = () => {
         {
             available: true,
             onClick: () => window.location.href = '',
-            image: biceps, 
+            image: biceps,
             title: 'Barbell Squat',
-            muscle: 'Legs',
+            muscle: 'quadriceps',
             level: 'Intermediate',
-            equipment: 'Barbells',
+            equipment: 'barbells',
             type: 'Compound',
-        }
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Push-Up',
+            muscle: 'chest',
+            level: 'Beginner',
+            equipment: 'none',
+            type: 'Bodyweight',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Deadlift',
+            muscle: 'hamstrings',
+            level: 'Advanced',
+            equipment: 'barbells',
+            type: 'Compound',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Bicep Curl',
+            muscle: 'biceps',
+            level: 'Beginner',
+            equipment: 'dumbbells',
+            type: 'Isolation',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Plank',
+            muscle: 'abdominals',
+            level: 'Beginner',
+            equipment: 'none',
+            type: 'Isometric',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Lat Pulldown',
+            muscle: 'lats',
+            level: 'Intermediate',
+            equipment: 'machines',
+            type: 'Compound',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Tricep Pushdown',
+            muscle: 'triceps',
+            level: 'Intermediate',
+            equipment: 'cables',
+            type: 'Isolation',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Lateral Raise',
+            muscle: 'shoulders',
+            level: 'Beginner',
+            equipment: 'dumbbells',
+            type: 'Isolation',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Pull-Up',
+            muscle: 'lats',
+            level: 'Advanced',
+            equipment: 'pull-up bar',
+            type: 'Bodyweight',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Glute Bridge',
+            muscle: 'glutes',
+            level: 'Beginner',
+            equipment: 'none',
+            type: 'Bodyweight',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Calf Raise',
+            muscle: 'calves',
+            level: 'Beginner',
+            equipment: 'none',
+            type: 'Isolation',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Face Pull',
+            muscle: 'traps',
+            level: 'Intermediate',
+            equipment: 'cables',
+            type: 'Isolation',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Kettlebell Swing',
+            muscle: 'hamstrings',
+            level: 'Intermediate',
+            equipment: 'kettlebells',
+            type: 'Plyometric',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Side Plank',
+            muscle: 'obliques',
+            level: 'Intermediate',
+            equipment: 'none',
+            type: 'Isometric',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: biceps,
+            title: 'Seated Leg Press',
+            muscle: 'quadriceps',
+            level: 'Intermediate',
+            equipment: 'machines',
+            type: 'Compound',
+        },
     ];
 
     return (
@@ -75,9 +215,9 @@ const Exercises = () => {
 
                     <select name="level" onChange={handleFilterChange} value={filters.level}>
                         <option value="">All Levels</option>
-                        <option value="beginner">Beginner</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="advanced">Advanced</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
                     </select>
 
                    <select name="equipment" onChange={handleFilterChange} value={filters.equipment}>
@@ -97,18 +237,18 @@ const Exercises = () => {
 
                     <select name="type" onChange={handleFilterChange} value={filters.type}>
                         <option value="">All Types</option>
-                        <option value="compound">Compound</option>
-                        <option value="isolation">Isolation</option>
-                        <option value="bodyweight">Bodyweight</option>
-                        <option value="isometric">Isometric</option>
-                        <option value="plyometric">Plyometric</option>
+                        <option value="Compound">Compound</option>
+                        <option value="Isolation">Isolation</option>
+                        <option value="Bodyweight">Bodyweight</option>
+                        <option value="Isometric">Isometric</option>
+                        <option value="Plyometric">Plyometric</option>
                     </select>
                 </div>
 
 
                 <div className="exercises-container">
                         {exercises.filter(filterExercises).length === 0 ? (
-                            <span className="no-available-program">No gains here! Try changing the filters and flex those options 💪😅</span>                            
+                            <span className="no-available-exercice">No gains here! Try changing the filters and flex those options 💪😅</span>                            
                         ) : (
                             exercises.filter(filterExercises).map((exercises, index) => (
                                 <Exercise key={index} {...exercises} />

@@ -113,14 +113,14 @@ function Nav() {
                         <NavLink
                             to='/Home' 
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'nav-link'}
+                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'responsive-nav-link'}
                         >
                             Home
                         </NavLink>
                         <NavLink
                             to='/Programs' 
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'nav-link'}
+                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'responsive-nav-link'}
                         >
                             Programs
                         </NavLink>
@@ -129,14 +129,14 @@ function Nav() {
                         <NavLink
                             to='/Exercises' 
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'nav-link'}
+                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'responsive-nav-link'}
                         >
                             Exercises
                         </NavLink>
                         <NavLink
                             to='/Nutrition' 
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'nav-link'}
+                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'responsive-nav-link'}
                         >
                             Nutrition
                         </NavLink>
@@ -145,14 +145,14 @@ function Nav() {
                         <NavLink
                             to='/Services' 
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'nav-link'}
+                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'responsive-nav-link'}
                         >
                             Services
                         </NavLink>
                         <NavLink
                             to='/About' 
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'nav-link'}
+                            className={({ isActive }) => isActive ? 'responsive-nav-link active-link' : 'responsive-nav-link'}
                         >
                             About
                         </NavLink>

@@ -5,6 +5,15 @@ import Footer from '../../Components/Footer/Footer'
 import Program from '../../Components/Program/Program'
 
 import ppl from '../../Media/Programs.Media/ppl.jpg'
+import beginner from '../../Media/Programs.Media/beginner.jpg'
+import deadlift from '../../Media/Programs.Media/deadlift.jpg'
+import jumping from '../../Media/Programs.Media/jumping.jpg'
+import running from '../../Media/Programs.Media/running.jpg'
+import powerlifting from '../../Media/Programs.Media/powerlifting.jpg'
+import hiit from '../../Media/Programs.Media/hiit.jpg'
+import machines from '../../Media/Programs.Media/machines.jpg'
+import hybrid from '../../Media/Programs.Media/hybrid.jpg'
+
 
 const Programs = () => {
     const [filters, setFilters] = React.useState({
@@ -36,11 +45,107 @@ const Programs = () => {
             onClick: () => window.location.href = '',
             image: ppl,
             title: 'Push Pull Legs (PPL)',
-            description: 'A classic split to maximize muscle growth by targeting Push, Pull, and Leg muscles on separate days. This structure allows enough recovery while still training each muscle group multiple times a week for steady progress.',
+            description: 'A classic 3-day split to maximize muscle growth by targeting Push, Pull, and Leg muscles on separate days. Ideal for intermediate lifters aiming for hypertrophy.',
             goal: 'Muscle',
             level: 'Intermediate',
             frequency: '4-5',
             equipment: 'Barbells',
+            time: '60+',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: beginner,
+            title: 'Full Body Beginner Program',
+            description: 'Perfect for beginners focusing on overall fitness and strength. Covers all major muscle groups in each workout.',
+            goal: 'Fitness',
+            level: 'Beginner',
+            frequency: '2-3',
+            equipment: 'Dumbbells',
+            time: '30-60',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: deadlift,
+            title: 'Upper Lower Split',
+            description: 'Targets upper and lower body alternately, allowing balanced development and recovery between sessions.',
+            goal: 'Strength',
+            level: 'Intermediate',
+            frequency: '4-5',
+            equipment: 'Barbells',
+            time: '60+',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: jumping,
+            title: 'Bodyweight Fat Loss',
+            description: 'No equipment, high-intensity bodyweight training to burn fat and build lean muscle at home.',
+            goal: 'Fatloss',
+            level: 'Beginner',
+            frequency: '4-5',
+            equipment: 'None',
+            time: '30-60',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: running,
+            title: 'Athletic Endurance Program',
+            description: 'Combination of cardio and resistance training to boost stamina, speed, and muscular endurance.',
+            goal: 'Endurance',
+            level: 'Intermediate',
+            frequency: '6-7',
+            equipment: 'Bands',
+            time: '30-60',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: powerlifting,
+            title: 'Powerlifting Program',
+            description: 'Focused on the big three: squat, bench, and deadlift. Perfect for those looking to gain raw strength.',
+            goal: 'Strength',
+            level: 'Advanced',
+            frequency: '4-5',
+            equipment: 'Barbells',
+            time: '60+',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: hiit,
+            title: 'Home HIIT Burn',
+            description: 'Short, high-intensity interval workouts designed to maximize calorie burn in minimal time. No equipment needed.',
+            goal: 'Fatloss',
+            level: 'Intermediate',
+            frequency: '6-7',
+            equipment: 'None',
+            time: 'Under30',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: machines,
+            title: 'Machine Circuit Training',
+            description: 'A quick gym routine that combines multiple machine exercises in a circuit to improve strength and cardio simultaneously.',
+            goal: 'Fitness',
+            level: 'Beginner',
+            frequency: '2-3',
+            equipment: 'Machines',
+            time: '30-60',
+        },
+        {
+            available: true,
+            onClick: () => window.location.href = '',
+            image: hybrid,
+            title: 'Hybrid Strength & Conditioning',
+            description: 'Blends weight training and conditioning for the best of both worlds—strength, speed, and endurance.',
+            goal: 'Endurance',
+            level: 'Advanced',
+            frequency: '6-7',
+            equipment: 'Dumbbells',
             time: '60+',
         },
     ];

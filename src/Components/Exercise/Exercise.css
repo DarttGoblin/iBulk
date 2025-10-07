@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     border-radius: var(--main-border-radius);
-    width: 250px;
+    width: 300px;
     box-shadow: grey 0px 0px 10px 5px;
     cursor: pointer;
     transition: scale var(--main-transition);
@@ -14,8 +14,8 @@
 }
 
 .exercise-image {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 28px;
 }
 
@@ -27,12 +27,12 @@
 }
 
 .exercise-title {
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .exercise-level {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -45,21 +45,19 @@
 }
 
 .exercise-muscle {
-    font-size: 18px;
-}
-
-
-.exercise-equipment {
-
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .exercise-type {
-    padding: 5px 10px;
+    font-size: 15px;
+    padding: 5px 40px;
     font-weight: 600;
     background-color: black;
     color: white;
     width: fit-content;
-    border-radius: var(--main-border-radius);
+    border-bottom-left-radius: var(--main-border-radius);
 }
 
 .beginner {

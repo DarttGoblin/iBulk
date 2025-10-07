@@ -1,11 +1,14 @@
 .program-card {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     border-radius: var(--main-border-radius);
     width: 1300px;
+    height: 300px;
     box-shadow: grey 0px 0px 10px 5px;
     cursor: pointer;
     transition: scale var(--main-transition);
+    overflow: hidden;
 }
 
 .program-card:hover {
@@ -13,9 +16,14 @@
 }
 
 .program-image {
+    width: 600px;  /* fixed width */
+    height: 100%;  /* matches card height */
+    object-fit: cover; /* crop if necessary */
     border-bottom-left-radius: 28px;
     border-top-left-radius: 28px;
+    flex-shrink: 0; /* prevent shrinking on flex layout */
 }
+
 
 .program-info {
     display: flex;
@@ -52,19 +60,36 @@
 
 @media only screen and (max-width: 1700px) {
     .program-card {
-        width: 90%;
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1100px) {
     .program-card {
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
 
     .program-image {
-        border-radius: 0;
+        width: 100%;
+        height: 300px;
+        border-radius: 0px;
         border-top-right-radius: 28px;
         border-top-left-radius: 28px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .program-title {
+        font-size: 23px;
+    }
+
+    .program-description {
+        font-size: 15px;
+    }
+
+    .program-attrs-container {
+        font-size: 18px;
     }
 }
