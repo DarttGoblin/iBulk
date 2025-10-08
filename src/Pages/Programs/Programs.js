@@ -161,7 +161,7 @@ const Programs = () => {
                 </div>
                 <div className='programs-selects-container'>
                     <select name="goal" onChange={handleFilterChange} value={filters.goal}>
-                        <option value="">Goal</option>
+                        <option value="">Training Goal</option>
                         <option value="Muscle">Muscle Gain</option>
                         <option value="Fatloss">Fat Loss</option>
                         <option value="Strength">Strength</option>

@@ -1,0 +1,16 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    margin-top: 96.4px;
+    background-color: white;
+}
+
+.slides-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}

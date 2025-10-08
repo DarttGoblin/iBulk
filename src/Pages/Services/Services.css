@@ -61,7 +61,7 @@
 .special-service-input {
     width: 700px;
     border: 1px solid gray;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(240, 240, 240);
     font-size: 25px;
     color: black;
     border-radius: var(--main-border-radius);

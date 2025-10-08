@@ -245,6 +245,10 @@ const Exercises = () => {
                     </select>
                 </div>
 
+                <div className='search-input-container'>
+                    <input className='search-input' type='text' placeholder='Search for an exercise...'></input>
+                    <button className='search-button'><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
 
                 <div className="exercises-container">
                         {exercises.filter(filterExercises).length === 0 ? (
