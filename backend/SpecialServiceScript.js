@@ -1,62 +1,63 @@
+require("dotenv").config();
+
 const nodemailer = require("nodemailer");
 const express = require("express");
 const cors = require("cors");
 
-
 const app = express();
-const port = 9069;
-var myPassword = "oriolukxhzzakbrq";
+const port = process.env.PORT || 9069;
 
-app.use(express.json())
-app.use(express.text())
-app.use(cors({origin: "*"}));
+app.use(express.json());
+app.use(express.text());
+app.use(cors({ origin: "*" }));
 
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header(
+        "Access-Control-Allow-Headers",
+        "Origin, X-Requested-With, Content-Type, Accept"
+    );
     next();
 });
 
 app.post("/", (req, res) => {
-    var userSpecialService = req.body.specialTextAreaValue; 
-    let resObject = {};
+    const userSpecialService = req.body.specialTextAreaValue;
 
-    var transporter = nodemailer.createTransport({
-        service: 'gmail',
+    const transporter = nodemailer.createTransport({
+        service: "gmail",
         auth: {
-            user: 'yassine.bazgour@gmail.com',
-            pass: myPassword
-        }
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS,
+        },
     });
-    
-    var mailOptions = {
-        from: 'yassine.bazgour@gmail.com',
-        to: 'yassine.bazgour@gmail.com',
-        subject: 'iBulk Special Request',
-        html: 
-            `
-                <div style="background-color: #f4f4f4; padding: 20px; border-radius: 10px; font-family: Arial, sans-serif; color: #333;">
-                    <h2 style="color: black;">iBulk Special Request</h2>
-                    <p style="font-size: 16px; margin-bottom: 20px;"><strong>Special Request:</strong><br> ${userSpecialService}</p>
-                </div>
-            `
+
+    const mailOptions = {
+        from: process.env.EMAIL_USER,
+        to: process.env.EMAIL_USER,
+        subject: "iBulk Special Request",
+        html: `
+            <div style="background-color: #f4f4f4; padding: 20px; border-radius: 10px; font-family: Arial, sans-serif; color: #333;">
+                <h2 style="color: black;">iBulk Special Request</h2>
+                <p style="font-size: 16px; margin-bottom: 20px;">
+                    <strong>Special Request:</strong><br>
+                    ${userSpecialService}
+                </p>
+            </div>
+        `,
     };
 
-    try {
-        transporter.sendMail(mailOptions, function(error, info) {
-            if (error) {
-                console.log(error);
-                resObject.success = false;
-                resObject = { success: false, error: "Error sending email." };
-            } else {
-                console.log('Email sent: ' + info.response);
-                resObject.success = true;
-                console.log(resObject);
-            }
-            res.send(resObject);
-        });
-    }
-    catch (error) {console.log(error);}
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            console.error(error);
+            return res.send({
+                success: false,
+                error: "Error sending email.",
+            });
+        }
+
+        console.log("Email sent:", info.response);
+        res.send({ success: true });
+    });
 });
 
-app.listen(port, () => console.log("Listening on port " + port));
+app.listen(port, () => console.log(`Listening on port ${port}`));
